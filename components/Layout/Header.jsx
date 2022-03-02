@@ -23,38 +23,50 @@ export default function Header() {
                 </section>
 
                 <section className="list">
-                    <li><a href="index.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="#333" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <polyline points="5 12 3 12 12 3 21 12 19 12" />
-                            <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-                            <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
-                        </svg>Inicio</a>
+                    <li>
+                        <Link href="/">
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="#333" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <polyline points="5 12 3 12 12 3 21 12 19 12" />
+                                <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                                <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                            </svg>Inicio</a>
+                        </Link>
                     </li>
-                    <li><a href="/pages/productos.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brush" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="#333" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M3 21v-4a4 4 0 1 1 4 4h-4" />
-                            <path d="M21 3a16 16 0 0 0 -12.8 10.2" />
-                            <path d="M21 3a16 16 0 0 1 -10.2 12.8" />
-                            <path d="M10.6 9a9 9 0 0 1 4.4 4.4" />
-                        </svg>Productos</a>
+                    <li>
+                        <Link href="/productos">
+                            <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brush" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="#333" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M3 21v-4a4 4 0 1 1 4 4h-4" />
+                                <path d="M21 3a16 16 0 0 0 -12.8 10.2" />
+                                <path d="M21 3a16 16 0 0 1 -10.2 12.8" />
+                                <path d="M10.6 9a9 9 0 0 1 4.4 4.4" />
+                            </svg>Productos</a>
+                        </Link>
                     </li>
-                    <li><a href="pages/sobre.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-info-circle" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="#333" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <circle cx="12" cy="12" r="9" />
-                            <line x1="12" y1="8" x2="12.01" y2="8" />
-                            <polyline points="11 12 12 12 12 16 13 16" />
-                        </svg>Sobre</a>
+                    <li>
+                        <Link href="/sobre">
+                            <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-info-circle" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="#333" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="12" cy="12" r="9" />
+                                <line x1="12" y1="8" x2="12.01" y2="8" />
+                                <polyline points="11 12 12 12 12 16 13 16" />
+                            </svg>Sobre</a>
+                        </Link>
                     </li>
-                    <li><a href="pages/contact.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-device-mobile-message" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M11 3h10v8h-3l-4 2v-2h-3z" />
-                            <path d="M15 16v4a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1h2" />
-                            <path d="M10 18v.01" />
-                        </svg>Contacto</a>
+                    <li>
+                        <Link href="/contacto">
+                            <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-device-mobile-message" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M11 3h10v8h-3l-4 2v-2h-3z" />
+                                <path d="M15 16v4a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1h2" />
+                                <path d="M10 18v.01" />
+                            </svg>Contacto</a>
+                        </Link>
                     </li>
                 </section>
 

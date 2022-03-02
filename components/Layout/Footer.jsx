@@ -47,14 +47,17 @@ export default function Footer() {
             .app_footer {
                 width:100vw;
                 height:10vh;
-                text-align:center;
+                display:flex;
+                align-items:center;
                 font-family:serif;
+                background:#fff;
+                flex-direction:column;
+                justify-content:space-evenly;
             }
 
             .social-media {
                 display:flex;
-                width:max-content;
-                margin:auto;
+                margin-top:.8rem;
             }
 
             .media {
