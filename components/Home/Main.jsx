@@ -56,6 +56,28 @@ export default function Main() {
                 color:white;
                 width:max-content;
             }
+
+            @media screen and (max-width:1200px) {
+                .image {
+                    display:none;
+                }
+
+                .slogan {
+                    width:100vw;
+                    background:url('/images/example.jpg');
+                    background-position: center;
+                    color:#aaa;
+                }
+
+                span {
+                    text-shadow:2px 2px 5px #333;
+                }
+
+                h2 {
+                    color:#eee;
+                    text-shadow:2px 2px 5px #333;
+                }
+            }
         `}</style>
         </>
     )

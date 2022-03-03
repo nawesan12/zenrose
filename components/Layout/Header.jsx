@@ -196,6 +196,7 @@ export default function Header() {
                 }
 
                 .navigation {
+                    background:#fff;
                     position:fixed;
                     top:12vh;
                     left:0;
