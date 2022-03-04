@@ -45,7 +45,7 @@ export default function Footer() {
 
         <style jsx>{`
             .app_footer {
-                width:100vw;
+                max-width:100vw;
                 height:10vh;
                 display:flex;
                 align-items:center;
@@ -53,6 +53,7 @@ export default function Footer() {
                 background:#fff;
                 flex-direction:column;
                 justify-content:space-evenly;
+                margin-top:10vh;
             }
 
             .social-media {
@@ -62,12 +63,6 @@ export default function Footer() {
 
             .media {
                 margin:0 .8rem;
-            }
-
-            @media screen and (max-width:1200px) {
-                .app_footer {
-                    display:none;
-                }
             }
         `}</style>
         </>

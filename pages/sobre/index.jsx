@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Main from '../../components/Sobre/Main'
 
 export default function Sobre() {
     return(
@@ -6,6 +7,8 @@ export default function Sobre() {
         <Head>
             <title>Sobre - Zenrose</title>
         </Head>
+
+        <Main />
         </>
     )
 }

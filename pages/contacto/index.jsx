@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Main from '../../components/Contacto/Main'
 
 export default function Contacto() {
     return(
@@ -6,6 +7,8 @@ export default function Contacto() {
         <Head>
             <title>Contacto - Zenrose</title>
         </Head>
+
+        <Main />
         </>
     )
 }

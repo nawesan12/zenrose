@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Main from '../../components/Productos/Main'
 
 export default function Productos() {
     return(
@@ -6,6 +7,8 @@ export default function Productos() {
         <Head>
             <title>Productos - Zenrose</title>
         </Head>
+
+        <Main />
         </>
     )
 }

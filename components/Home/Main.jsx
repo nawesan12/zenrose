@@ -1,11 +1,13 @@
 import Image from "next/image";
+import ProductDemonstration from "./ProductDemonstration";
+import Shipping from "./Shipping";
 
 export default function Main() {
     return(
         <>
         <section className="hero">
             <section className="image">
-                <Image src="/images/example.jpg" alt="Zenrose" layout="fill" objectFit="cover" objectPosition="top"/>
+                <Image src="/images/example.jpg" alt="Zenrose" layout="fill" objectFit="cover" objectPosition="top" priority/>
             </section>
             <section className="slogan">
                 <span>Ejemplo</span>
@@ -13,14 +15,17 @@ export default function Main() {
                 <button>Ver Productos</button>
             </section>
         </section>
+        <Shipping />
+        <ProductDemonstration />
 
         <style jsx>{`
             .hero {
                 position:relative;
                 top:12vh;
                 display:flex;
-                height:88vh;
-                width:100vw;
+                height:92vh;
+                max-width:100vw;
+                margin:0 0 20vh;
             }    
 
             .image {
